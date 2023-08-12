@@ -30,6 +30,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/libre-franklin": "^5.0.8"
+		"@fontsource/libre-franklin": "^5.0.8",
+		"@fortawesome/free-brands-svg-icons": "^6.4.2",
+		"svelte-fa": "^3.0.4"
 	}
 }

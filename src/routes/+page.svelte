@@ -2,6 +2,8 @@
 	import dashboardImg from '$lib/assets/illustration-dashboard.png';
 	import Logo from '$lib/assets/logo.svelte';
 	import Form from '$lib/components/form.svelte';
+	import Fa from 'svelte-fa/src/fa.svelte';
+	import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <Logo />
@@ -10,6 +12,17 @@
 <Form />
 <img class="dashboardImg" alt="" src={dashboardImg} />
 <footer class="footer">
+	<div class="social__container">
+		<a class="social__link" href="https://www.facebook.com" target="_blank" aria-label="Instagram">
+			<Fa size="14" icon={faFacebookF} />
+		</a>
+		<a class="social__link" href="https://twitter.com/" target="_blank" aria-label="Instagram">
+			<Fa size="14" icon={faTwitter} />
+		</a>
+		<a class="social__link" href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+			<Fa size="14" icon={faInstagram} />
+		</a>
+	</div>
 	<p class="copyright">© Copyright Ping. All rights reserved.</p>
 </footer>
 
@@ -33,8 +46,35 @@
 	}
 
 	.dashboardImg {
-		width: $mobile-width;
+		width: 100%;
+		max-width: $mobile-width;
 		margin-bottom: 12rem;
+	}
+
+	.social__container {
+		display: flex;
+		justify-content: center;
+		gap: 1.25rem;
+		margin-inline: auto;
+		margin-bottom: 2.5rem;
+
+		.social__link {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 3.2rem;
+			height: 3.2rem;
+			border: 1px solid $pale-blue;
+			border-radius: 50%;
+			text-decoration: none;
+			color: $blue;
+			transition: background-color 0.15s, color 0.15s;
+
+			&:hover {
+				color: $white;
+				background-color: $blue;
+			}
+		}
 	}
 
 	.copyright {
@@ -43,7 +83,7 @@
 		color: $gray;
 	}
 
-	@media (min-width: $desktop-width) {
+	@media (min-width: $tablet-width) {
 		.header {
 			font-size: 4.8rem;
 		}
@@ -54,8 +94,8 @@
 		}
 
 		.dashboardImg {
-			width: 100%;
-			margin-bottom: 7.2rem;
+			margin-bottom: 7rem;
+			max-width: 60rem;
 		}
 
 		.copyright {

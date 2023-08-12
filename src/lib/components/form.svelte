@@ -84,6 +84,7 @@
 			font-weight: 600;
 			cursor: pointer;
 			box-shadow: $button-shadow;
+			transition: background-color 0.15s;
 
 			&:hover {
 				background-color: $blue-hover;
@@ -91,7 +92,7 @@
 		}
 	}
 
-	@media (min-width: $desktop-width) {
+	@media (min-width: $tablet-width) {
 		.form {
 			flex-direction: row;
 			gap: 1.6rem;
