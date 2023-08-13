@@ -1,9 +1,9 @@
 <script lang="ts">
 	export let errorMessage = '';
-	export let type: string = 'text';
+	export let type = 'text';
 	export let name: string;
-	export let placeholder: string = '';
-	export let label: string = '';
+	export let placeholder = '';
+	export let label = '';
 </script>
 
 <div>

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from './button.svelte';
-	import Input from './input.svelte';
+	import Button from '$lib/components/button.svelte';
+	import Input from '$lib/components/input.svelte';
 
 	const EMAIL_REGEXP = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 	const EMPTY = 'Whoops! It looks like you forgot to add your email';
