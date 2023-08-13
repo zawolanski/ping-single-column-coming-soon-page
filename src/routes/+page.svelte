@@ -43,6 +43,7 @@
 		font-size: 1.2rem;
 		font-weight: 300;
 		margin: 0 0 3.2rem;
+		color: $very-dark-blue;
 	}
 
 	.dashboardImg {

@@ -12,7 +12,7 @@
 	</div>
 </div>
 
-<style lang="scss">
+<style lang="tet/scss">
 	.main-container {
 		max-width: 80rem;
 		margin-inline: auto;
