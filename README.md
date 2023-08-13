@@ -17,9 +17,9 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![Mobile](image-1.png)
+![Mobile](https://github.com/zawolanski/ping-single-column-coming-soon-page/assets/61630877/29a95792-3ac7-494a-8697-124cad254507)
 
-![Desktop](image.png)
+![Desktop](https://github.com/zawolanski/ping-single-column-coming-soon-page/assets/61630877/bf1e80b1-7157-4475-a288-b62136bb451c)
 
 ### Links
 
