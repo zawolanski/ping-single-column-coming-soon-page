@@ -1,38 +1,40 @@
-# create-svelte
+# Frontend Mentor - Ping coming soon page solution
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da).
 
-## Creating a project
+## Table of contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Overview
 
-## Developing
+### Screenshot
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+![Mobile](image-1.png)
 
-```bash
-npm run dev
+![Desktop](image.png)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Links
 
-## Building
+- Live Site URL: [App](https://ping-single-column-coming-soon-page-lime.vercel.app)
 
-To create a production version of your app:
+## My process
 
-```bash
-npm run build
-```
+### Built with
 
-You can preview the production build with `npm run preview`.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [Svelte Kit](https://kit.svelte.dev) - JS library
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Author
+
+- Frontend Mentor - [@zawolanski](https://www.frontendmentor.io/profile/zawolanski)
